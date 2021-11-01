@@ -14,8 +14,7 @@
       vr-mode-ui="enabled: false"
       embedded
       arjs="sourceType: webcam; debugUIEnabled: false;"
-      a-entity gltf-model="./assets/magnemite/scene.gltf" rotation="0 180 0" scale="0.15 0.15 0.15" gps-entity-place="longitude: 12.489820; latitude: 41.892590;" 
-      animation-mixer
+      
     >
       <a-text
         value="This content will always face you."
@@ -23,6 +22,8 @@
         scale="120 120 120"
         gps-entity-place="latitude: 43.539825; longitude: -5.652980;"
       ></a-text>
+      <a-entity gltf-model="./assets/magnemite/scene.gltf" rotation="0 180 0" scale="0.15 0.15 0.15" gps-entity-place="longitude: 12.489820; latitude: 41.892590;" 
+      animation-mixer/>
       <a-camera gps-camera rotation-reader> </a-camera>
     </a-scene>
   </body>
